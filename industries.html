@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Industries Served | Svojas Inc.</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="text-gray-800">
+    <div id="dynamic-header"></div>
+    <main>
+        <!-- Hero Section -->
+        <div class="relative bg-slate-900 py-48 overflow-hidden">
+            <div class="absolute inset-0 bg-[url('images/industrie-hero.png')] bg-cover bg-center opacity-20"></div>
+            <div class="absolute inset-0 bg-gradient-to-b from-slate-900/80 via-slate-900/60 to-slate-900/90"></div>
+            <div class="container mx-auto px-6 relative z-10 text-center">
+                <span class="inline-block py-1 px-3 rounded-full bg-orange-500/20 border border-orange-500/50 text-orange-300 text-xs font-bold tracking-widest mb-6 uppercase">Sector-Specific Solutions</span>
+                <h1 class="text-4xl md:text-6xl font-extrabold mb-6 text-white tracking-tight">Expertise Across Industries</h1>
+                <p class="text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">From rigorous cold chain protocols to complex construction logistics, we tailor our transportation solutions to the unique regulatory and operational demands of your sector.</p>
+            </div>
+        </div>
+
+        <!-- Stats Bar -->
+        <div class="container mx-auto px-6 -mt-16 relative z-20 mb-24">
+            <div class="glass-panel p-8 grid grid-cols-2 md:grid-cols-4 gap-8 text-center shadow-2xl bg-white/95 backdrop-blur-xl border-t-4 border-orange-500">
+                <div>
+                    <div class="text-4xl font-black text-slate-800 mb-1">98%</div>
+                    <div class="text-sm font-bold text-slate-500 uppercase tracking-wide">On-Time Delivery</div>
+                </div>
+                <div>
+                    <div class="text-4xl font-black text-slate-800 mb-1">24/7</div>
+                    <div class="text-sm font-bold text-slate-500 uppercase tracking-wide">Live Support</div>
+                </div>
+                <div>
+                    <div class="text-4xl font-black text-slate-800 mb-1">50+</div>
+                    <div class="text-sm font-bold text-slate-500 uppercase tracking-wide">Hazmat Partners</div>
+                </div>
+                <div>
+                    <div class="text-4xl font-black text-slate-800 mb-1">100%</div>
+                    <div class="text-sm font-bold text-slate-500 uppercase tracking-wide">Compliance Rate</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section 1: Industries Grid -->
+        <section class="container mx-auto px-6 pb-32">
+            <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-10">
+                
+                <!-- Retail & CPG -->
+                <div class="glass-card p-8 flex flex-col gap-6 hover:bg-white/60 transition-all duration-300 group hover:-translate-y-2">
+                    <div class="h-64 overflow-hidden rounded-2xl shadow-md relative">
+                        <img src="images/retail.png" alt="Retail Logistics" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 to-transparent"></div>
+                        <div class="absolute bottom-6 left-6">
+                            <h3 class="text-2xl font-bold text-white mb-1">Retail & CPG</h3>
+                            <span class="text-orange-400 text-sm font-semibold uppercase tracking-wider">Consumer Goods</span>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-slate-600 leading-relaxed mb-6">
+                            In the fast-paced world of retail, timing is currency. We support omnichannel strategies with precise deliveries to distribution centers (DCs) and direct-to-store shipments, ensuring RAD/MABD compliance.
+                        </p>
+                        <div class="flex gap-3 flex-wrap">
+                            <span class="px-3 py-1 bg-slate-100 text-slate-600 rounded-full text-xs font-semibold">Chargeback Mitigation</span>
+                            <span class="px-3 py-1 bg-slate-100 text-slate-600 rounded-full text-xs font-semibold">Peak Scalability</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Manufacturing -->
+                <div class="glass-card p-8 flex flex-col gap-6 hover:bg-white/60 transition-all duration-300 group hover:-translate-y-2">
+                    <div class="h-64 overflow-hidden rounded-2xl shadow-md relative">
+                        <img src="images/manufac.png" alt="Manufacturing Logistics" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 to-transparent"></div>
+                         <div class="absolute bottom-6 left-6">
+                            <h3 class="text-2xl font-bold text-white mb-1">Manufacturing</h3>
+                            <span class="text-orange-400 text-sm font-semibold uppercase tracking-wider">Industrial</span>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-slate-600 leading-relaxed mb-6">
+                            A halted production line costs thousands per minute. We specialize in Just-In-Time (JIT) delivery of raw materials and distribution of finished goods, supporting plant-to-plant transfers.
+                        </p>
+                        <div class="flex gap-3 flex-wrap">
+                            <span class="px-3 py-1 bg-slate-100 text-slate-600 rounded-full text-xs font-semibold">JIT Delivery</span>
+                            <span class="px-3 py-1 bg-slate-100 text-slate-600 rounded-full text-xs font-semibold">Heavy Haul</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Construction -->
+                <div class="glass-card p-8 flex flex-col gap-6 hover:bg-white/60 transition-all duration-300 group hover:-translate-y-2">
+                    <div class="h-64 overflow-hidden rounded-2xl shadow-md relative">
+                        <img src="images/Construction.png" alt="Construction Logistics" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 to-transparent"></div>
+                        <div class="absolute bottom-6 left-6">
+                            <h3 class="text-2xl font-bold text-white mb-1">Construction</h3>
+                            <span class="text-orange-400 text-sm font-semibold uppercase tracking-wider">Infrastructure</span>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-slate-600 leading-relaxed mb-6">
+                            Job site logistics requires more than just driving. We coordinate complex deliveries of steel, lumber, and heavy equipment to active construction zones with full safety compliance.
+                        </p>
+                        <div class="flex gap-3 flex-wrap">
+                            <span class="px-3 py-1 bg-slate-100 text-slate-600 rounded-full text-xs font-semibold">Job Site Access</span>
+                            <span class="px-3 py-1 bg-slate-100 text-slate-600 rounded-full text-xs font-semibold">Project Cargo</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Chemicals & Energy -->
+                <div class="glass-card p-8 flex flex-col gap-6 hover:bg-white/60 transition-all duration-300 group hover:-translate-y-2">
+                    <div class="h-64 overflow-hidden rounded-2xl shadow-md relative">
+                        <div class="w-full h-full bg-slate-800 flex items-center justify-center relative">
+                             <svg class="w-16 h-16 text-slate-600 absolute" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" /></svg>
+                             <img src="images/chem.png" onerror="this.style.display='none'" alt="Chemical Logistics" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 relative z-10 opacity-80">
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 to-transparent z-20"></div>
+                        <div class="absolute bottom-6 left-6 z-20">
+                            <h3 class="text-2xl font-bold text-white mb-1">Chemical & Energy</h3>
+                            <span class="text-orange-400 text-sm font-semibold uppercase tracking-wider">Hazmat & Safety</span>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-slate-600 leading-relaxed mb-6">
+                            Risk management is at the core of our energy and chemical logistics. We utilize a strictly vetted network of Hazmat-certified carriers for Classes 3, 8, and 9.
+                        </p>
+                        <div class="flex gap-3 flex-wrap">
+                            <span class="px-3 py-1 bg-slate-100 text-slate-600 rounded-full text-xs font-semibold">Regulatory Compliance</span>
+                            <span class="px-3 py-1 bg-slate-100 text-slate-600 rounded-full text-xs font-semibold">Safety First</span>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- Food & Beverage -->
+                <div class="glass-card p-8 flex flex-col gap-6 hover:bg-white/60 transition-all duration-300 group hover:-translate-y-2">
+                    <div class="h-64 overflow-hidden rounded-2xl shadow-md relative">
+                        <div class="w-full h-full bg-slate-800 flex items-center justify-center relative">
+                             <svg class="w-16 h-16 text-slate-600 absolute" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
+                             <img src="images/food.png" onerror="this.style.display='none'" alt="Food Logistics" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 relative z-10 opacity-80">
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 to-transparent z-20"></div>
+                        <div class="absolute bottom-6 left-6 z-20">
+                            <h3 class="text-2xl font-bold text-white mb-1">Food & Beverage</h3>
+                            <span class="text-orange-400 text-sm font-semibold uppercase tracking-wider">Cold Chain</span>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-slate-600 leading-relaxed mb-6">
+                            Protecting the cold chain is our priority. We adhere to the Food Safety Modernization Act (FSMA) with continuous temperature monitoring for produce and frozen goods.
+                        </p>
+                        <div class="flex gap-3 flex-wrap">
+                            <span class="px-3 py-1 bg-slate-100 text-slate-600 rounded-full text-xs font-semibold">Temp Integrity</span>
+                            <span class="px-3 py-1 bg-slate-100 text-slate-600 rounded-full text-xs font-semibold">FSMA Compliant</span>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- E-commerce -->
+                <div class="glass-card p-8 flex flex-col gap-6 hover:bg-white/60 transition-all duration-300 group hover:-translate-y-2">
+                    <div class="h-64 overflow-hidden rounded-2xl shadow-md relative">
+                        <div class="w-full h-full bg-slate-800 flex items-center justify-center relative">
+                             <svg class="w-16 h-16 text-slate-600 absolute" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" /></svg>
+                             <img src="images/ecom.png" onerror="this.style.display='none'" alt="E-commerce Logistics" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 relative z-10 opacity-80">
+                        </div>
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 to-transparent z-20"></div>
+                        <div class="absolute bottom-6 left-6 z-20">
+                            <h3 class="text-2xl font-bold text-white mb-1">E-commerce</h3>
+                            <span class="text-orange-400 text-sm font-semibold uppercase tracking-wider">Fulfillment</span>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-slate-600 leading-relaxed mb-6">
+                            We bridge the gap between suppliers and digital storefronts. Our expertise in Amazon FBA requirements helps avoid fees, providing efficient middle-mile solutions.
+                        </p>
+                        <div class="flex gap-3 flex-wrap">
+                            <span class="px-3 py-1 bg-slate-100 text-slate-600 rounded-full text-xs font-semibold">Amazon FBA</span>
+                            <span class="px-3 py-1 bg-slate-100 text-slate-600 rounded-full text-xs font-semibold">Speed to Market</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Section 2: Technology (Dark Full-Width Background) -->
+        <section class="py-24 bg-slate-900 relative overflow-hidden">
+            <!-- Background blobs -->
+            <div class="absolute top-0 right-0 w-96 h-96 bg-orange-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob"></div>
+            <div class="absolute bottom-0 left-0 w-96 h-96 bg-blue-500 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-blob animation-delay-2000"></div>
+
+            <div class="container mx-auto px-6 relative z-10">
+                <div class="text-center mb-16">
+                    <h2 class="text-3xl font-bold text-white mb-4">Technology Powering Your Supply Chain</h2>
+                    <p class="text-slate-400 max-w-2xl mx-auto text-lg">We integrate seamlessly with your systems to provide end-to-end visibility and data-driven insights.</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8 max-w-7xl mx-auto">
+                    <div class="bg-white/5 backdrop-blur-md p-8 rounded-2xl border border-white/10 hover:border-orange-500/50 transition-colors">
+                        <div class="w-14 h-14 bg-orange-500/20 rounded-xl flex items-center justify-center mb-6">
+                            <svg class="w-7 h-7 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3">EDI & API Integration</h3>
+                        <p class="text-slate-400">Seamless 204/214/210 data exchange compatible with all major TMS platforms for automated workflow.</p>
+                    </div>
+                    <div class="bg-white/5 backdrop-blur-md p-8 rounded-2xl border border-white/10 hover:border-orange-500/50 transition-colors">
+                        <div class="w-14 h-14 bg-orange-500/20 rounded-xl flex items-center justify-center mb-6">
+                            <svg class="w-7 h-7 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3">Real-Time Visibility</h3>
+                        <p class="text-slate-400">Live GPS tracking and automated milestone updates for every shipment, accessible 24/7.</p>
+                    </div>
+                    <div class="bg-white/5 backdrop-blur-md p-8 rounded-2xl border border-white/10 hover:border-orange-500/50 transition-colors">
+                        <div class="w-14 h-14 bg-orange-500/20 rounded-xl flex items-center justify-center mb-6">
+                            <svg class="w-7 h-7 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3">Advanced Analytics</h3>
+                        <p class="text-slate-400">Custom KPI dashboards to monitor on-time performance, spend, and carrier metrics.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 3: Process (Light Full Width) -->
+        <section class="py-24 bg-white/40 border-y border-white/20 backdrop-blur-sm relative">
+            <div class="container mx-auto px-6">
+                 <div class="text-center mb-16">
+                    <h2 class="text-3xl font-bold text-slate-800">Our Onboarding Process</h2>
+                    <p class="text-slate-600 mt-2">How we integrate seamlessly with your supply chain.</p>
+                </div>
+                <div class="max-w-7xl mx-auto grid md:grid-cols-3 gap-8 relative">
+                    <!-- Connector Line (Desktop) -->
+                    <div class="hidden md:block absolute top-12 left-0 w-full h-0.5 bg-orange-200 -z-10 transform -translate-y-1/2"></div>
+
+                    <!-- Step 1 -->
+                    <div class="text-center group">
+                        <div class="w-24 h-24 bg-white border-4 border-orange-500 rounded-full flex items-center justify-center mx-auto mb-6 shadow-xl relative z-10 group-hover:scale-110 transition-transform duration-300">
+                            <span class="text-3xl font-bold text-orange-500">01</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-800 mb-2">Audit & Analyze</h3>
+                        <p class="text-slate-600 text-sm px-4">We review your current shipping lanes, equipment needs, and compliance requirements.</p>
+                    </div>
+                     <!-- Step 2 -->
+                    <div class="text-center group">
+                        <div class="w-24 h-24 bg-white border-4 border-orange-500 rounded-full flex items-center justify-center mx-auto mb-6 shadow-xl relative z-10 group-hover:scale-110 transition-transform duration-300">
+                            <span class="text-3xl font-bold text-orange-500">02</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-800 mb-2">Strategy & SOP</h3>
+                        <p class="text-slate-600 text-sm px-4">We develop Standard Operating Procedures (SOPs) tailored to your industry's specific regulations.</p>
+                    </div>
+                     <!-- Step 3 -->
+                    <div class="text-center group">
+                        <div class="w-24 h-24 bg-white border-4 border-orange-500 rounded-full flex items-center justify-center mx-auto mb-6 shadow-xl relative z-10 group-hover:scale-110 transition-transform duration-300">
+                            <span class="text-3xl font-bold text-orange-500">03</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-800 mb-2">Execution & Scale</h3>
+                        <p class="text-slate-600 text-sm px-4">We deploy vetted carriers and provide real-time tracking, scaling capacity as your business grows.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Impact & CTA -->
+        <section class="container mx-auto px-6 py-24">
+            
+            <!-- Impact Stories -->
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-12">
+                     <h2 class="text-3xl font-bold text-slate-800">Impact Stories</h2>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="glass-panel p-8 border-l-4 border-green-500 hover:shadow-lg transition-shadow">
+                        <div class="text-green-600 font-bold text-xs uppercase tracking-wider mb-2">Retail Success</div>
+                        <h4 class="font-bold text-slate-800 text-xl mb-3">Reduced Chargebacks by 40%</h4>
+                        <p class="text-slate-600">Optimized delivery scheduling for a major electronics retailer to meet strict MABD windows.</p>
+                    </div>
+                    <div class="glass-panel p-8 border-l-4 border-blue-500 hover:shadow-lg transition-shadow">
+                         <div class="text-blue-600 font-bold text-xs uppercase tracking-wider mb-2">Chemical Safety</div>
+                        <h4 class="font-bold text-slate-800 text-xl mb-3">Zero Incidents</h4>
+                        <p class="text-slate-600">Executed 50+ Hazmat loads monthly for an industrial coatings manufacturer with perfect safety compliance.</p>
+                    </div>
+                    <div class="glass-panel p-8 border-l-4 border-purple-500 hover:shadow-lg transition-shadow">
+                         <div class="text-purple-600 font-bold text-xs uppercase tracking-wider mb-2">E-commerce Speed</div>
+                        <h4 class="font-bold text-slate-800 text-xl mb-3">99.8% On-Time Performance</h4>
+                        <p class="text-slate-600">Managed peak season surge volume for a fashion brand, ensuring stock availability.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- "Why Choose Us" Section -->
+            <div class="max-w-7xl mx-auto mt-32">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl font-bold text-slate-800">The Svojas Advantage</h2>
+                    <p class="text-slate-600 mt-2">Why leading industries trust us with their freight.</p>
+                </div>
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="glass-panel p-8 text-center border-t-4 border-orange-500 hover:shadow-2xl transition-all duration-300">
+                        <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6 text-orange-600">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Compliance Guarantee</h3>
+                        <p class="text-slate-600 text-sm">We stay ahead of regulatory changes, from FSMA to Hazmat, so you never face penalties or delays.</p>
+                    </div>
+                    <div class="glass-panel p-8 text-center border-t-4 border-orange-500 hover:shadow-2xl transition-all duration-300">
+                        <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6 text-orange-600">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Rapid Response</h3>
+                        <p class="text-slate-600 text-sm">Our 24/7 support team is ready to handle expedited requests and resolve issues in real-time.</p>
+                    </div>
+                    <div class="glass-panel p-8 text-center border-t-4 border-orange-500 hover:shadow-2xl transition-all duration-300">
+                        <div class="w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mx-auto mb-6 text-orange-600">
+                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        </div>
+                        <h3 class="text-xl font-bold text-slate-800 mb-3">Cost Optimization</h3>
+                        <p class="text-slate-600 text-sm">We analyze your lanes and volume to find the most efficient routing and consolidation opportunities.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CTA Section -->
+            <div class="mt-20 text-center glass-card p-12 bg-gradient-to-r from-orange-50 to-white border border-orange-100 relative overflow-hidden">
+                <div class="absolute top-0 right-0 p-8 opacity-10">
+                    <svg class="w-64 h-64 text-orange-500" fill="currentColor" viewBox="0 0 24 24"><path d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                </div>
+                <div class="relative z-10">
+                    <h2 class="text-3xl font-bold text-slate-800 mb-4">Have Unique Requirements?</h2>
+                    <p class="text-lg text-slate-600 max-w-2xl mx-auto mb-8">Every industry is different. Talk to our logistics specialists about your specific shipping challenges.</p>
+                    <a href="contact.html" class="btn-gradient text-white font-bold px-10 py-4 rounded-full shadow-lg hover:shadow-orange-500/40 transition-all transform hover:-translate-y-1 inline-block">Discuss Your Needs</a>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <div id="dynamic-footer"></div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get a Quote | Svojas Inc.</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="text-gray-800">
+    <div id="dynamic-header"></div>
+    <main>
+        <div class="container mx-auto px-6 py-40">
+            <div class="max-w-4xl mx-auto">
+                <div id="quote-form-container">
+                     <div class="glass-panel p-10 md:p-16">
+                        <div class="text-center">
+                            <h1 class="text-4xl font-extrabold mb-6 text-slate-800">Get a Freight Quote</h1>
+                            <p id="quote-intro-text" class="text-xl text-slate-600 mb-10">Tell us what you're shipping, and we'll handle the rest.</p>
+                        </div>
+                        <div id="progress-bar-container" class="mb-10 hidden">
+                            <div class="flex justify-between mb-2"><span id="progress-text" class="text-sm font-bold text-orange-600 uppercase tracking-wider">Step 1 of 3</span></div>
+                            <div class="w-full bg-gray-200/50 rounded-full h-2.5 backdrop-blur-sm"><div id="progress-bar-fill" class="progress-bar-fill h-2.5 rounded-full shadow-md" style="width: 0%"></div></div>
+                        </div>
+                        <form id="quote-form" class="space-y-8"></form>
+                    </div>
+                </div>
+                <div id="success-message" class="hidden text-center glass-panel p-16">
+                    <h2 class="text-3xl font-bold text-slate-800 mb-4">Quote Requested!</h2>
+                    <p class="text-lg text-slate-600 mb-10">We will review your details and get back to you shortly.</p>
+                    <button id="reset-quote-form" class="btn-gradient text-white font-bold px-8 py-4 rounded-full shadow-lg">Request Another Quote</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div id="dynamic-footer"></div>
+    <script src="script.js"></script>
+</body>
+</html>

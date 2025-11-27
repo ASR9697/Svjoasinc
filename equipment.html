@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipment Guide | Svojas Inc.</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="text-gray-800">
+    <div id="dynamic-header"></div>
+    <main>
+        <!-- Hero Section -->
+        <div class="relative bg-slate-900 py-48 overflow-hidden">
+            <div class="absolute inset-0 bg-[url('images/equipment-hero.png')] bg-cover bg-center"></div>
+            <div class="absolute inset-0 bg-gradient-to-b from-slate-900/80 via-slate-900/60 to-slate-900/90"></div>
+            <div class="container mx-auto px-6 relative z-10 text-center">
+                <span class="inline-block py-1 px-3 rounded-full bg-orange-500/20 border border-orange-500/50 text-orange-300 text-xs font-bold tracking-widest mb-6 uppercase">Fleet Capabilities</span>
+                <h1 class="text-4xl md:text-6xl font-extrabold mb-6 text-white tracking-tight">Equipment Guide</h1>
+                <p class="text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed">Choosing the right equipment is the first step to a successful shipment. From standard dry vans to specialized heavy haul trailers, we have the capacity you need.</p>
+            </div>
+        </div>
+
+        <div class="container mx-auto px-6 py-24">
+            <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-10">
+                
+                <!-- Drayage Trucking -->
+                <div class="glass-card p-8 flex flex-col gap-6 hover:bg-white/60 transition-all duration-300 group hover:-translate-y-2">
+                    <div class="h-64 overflow-hidden rounded-2xl shadow-md relative">
+                        <img src="images/drayage.png" alt="Drayage Trucking" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 to-transparent"></div>
+                        <div class="absolute bottom-6 left-6">
+                            <h3 class="text-2xl font-bold text-white mb-1">Drayage Power</h3>
+                            <span class="text-orange-400 text-sm font-semibold uppercase tracking-wider">Port & Rail</span>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-slate-600 leading-relaxed mb-6">
+                            Specialized power units designed for the short-distance transport of intermodal containers. Our drivers carry TWIC cards for secure access to all major ports and rail ramps.
+                        </p>
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center border-b border-slate-200 pb-2">
+                                <span class="text-sm font-bold text-slate-700">Chassis Compatibility</span>
+                                <span class="text-sm text-slate-500">20', 40', 45', 53'</span>
+                            </div>
+                            <div class="flex justify-between items-center border-b border-slate-200 pb-2">
+                                <span class="text-sm font-bold text-slate-700">Key Feature</span>
+                                <span class="text-sm text-slate-500">TWIC & UIIA Certified</span>
+                            </div>
+                            <div class="flex justify-between items-center pb-2">
+                                <span class="text-sm font-bold text-slate-700">Best For</span>
+                                <span class="text-sm text-slate-500">Import/Export Containers</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dry Van -->
+                <div class="glass-card p-8 flex flex-col gap-6 hover:bg-white/60 transition-all duration-300 group hover:-translate-y-2">
+                    <div class="h-64 overflow-hidden rounded-2xl shadow-md relative">
+                        <img src="images/dryvan.jpg" alt="Dry Van Trailer" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 to-transparent"></div>
+                        <div class="absolute bottom-6 left-6">
+                            <h3 class="text-2xl font-bold text-white mb-1">Dry Van (53')</h3>
+                            <span class="text-orange-400 text-sm font-semibold uppercase tracking-wider">General Freight</span>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-slate-600 leading-relaxed mb-6">
+                            The industry standard for palletized freight. Fully enclosed to protect cargo from weather. We utilize air-ride equipped trailers to reduce vibration damage during transit.
+                        </p>
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center border-b border-slate-200 pb-2">
+                                <span class="text-sm font-bold text-slate-700">Max Weight</span>
+                                <span class="text-sm text-slate-500">45,000 lbs</span>
+                            </div>
+                            <div class="flex justify-between items-center border-b border-slate-200 pb-2">
+                                <span class="text-sm font-bold text-slate-700">Dimensions</span>
+                                <span class="text-sm text-slate-500">53' L x 102" W x 110" H</span>
+                            </div>
+                            <div class="flex justify-between items-center pb-2">
+                                <span class="text-sm font-bold text-slate-700">Best For</span>
+                                <span class="text-sm text-slate-500">Retail, Electronics, CPG</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Reefer -->
+                <div class="glass-card p-8 flex flex-col gap-6 hover:bg-white/60 transition-all duration-300 group hover:-translate-y-2">
+                    <div class="h-64 overflow-hidden rounded-2xl shadow-md relative">
+                        <img src="images/reefer.png" alt="Refrigerated Trailer" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 to-transparent"></div>
+                        <div class="absolute bottom-6 left-6">
+                            <h3 class="text-2xl font-bold text-white mb-1">Refrigerated (Reefer)</h3>
+                            <span class="text-orange-400 text-sm font-semibold uppercase tracking-wider">Temp Controlled</span>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-slate-600 leading-relaxed mb-6">
+                            Insulated trailers with heavy-duty cooling units for temperature-sensitive cargo. Capable of maintaining temps from deep freeze (-20°F) to protect-from-freeze (65°F+).
+                        </p>
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center border-b border-slate-200 pb-2">
+                                <span class="text-sm font-bold text-slate-700">Max Weight</span>
+                                <span class="text-sm text-slate-500">43,500 lbs</span>
+                            </div>
+                            <div class="flex justify-between items-center border-b border-slate-200 pb-2">
+                                <span class="text-sm font-bold text-slate-700">Temp Range</span>
+                                <span class="text-sm text-slate-500">-20°F to 70°F</span>
+                            </div>
+                            <div class="flex justify-between items-center pb-2">
+                                <span class="text-sm font-bold text-slate-700">Best For</span>
+                                <span class="text-sm text-slate-500">Food, Pharma, Chemicals</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Flatbed -->
+                <div class="glass-card p-8 flex flex-col gap-6 hover:bg-white/60 transition-all duration-300 group hover:-translate-y-2">
+                    <div class="h-64 overflow-hidden rounded-2xl shadow-md relative">
+                        <img src="images/flatbed.jpg" alt="Flatbed Trailer" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 to-transparent"></div>
+                        <div class="absolute bottom-6 left-6">
+                            <h3 class="text-2xl font-bold text-white mb-1">Flatbed</h3>
+                            <span class="text-orange-400 text-sm font-semibold uppercase tracking-wider">Open Deck</span>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-slate-600 leading-relaxed mb-6">
+                            Open trailers for side, rear, or overhead loading. Ideal for cargo that is too wide for a dry van or requires crane loading. We provide tarps, straps, and chains for securement.
+                        </p>
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center border-b border-slate-200 pb-2">
+                                <span class="text-sm font-bold text-slate-700">Max Weight</span>
+                                <span class="text-sm text-slate-500">48,000 lbs</span>
+                            </div>
+                            <div class="flex justify-between items-center border-b border-slate-200 pb-2">
+                                <span class="text-sm font-bold text-slate-700">Deck Height</span>
+                                <span class="text-sm text-slate-500">~5 feet (Standard)</span>
+                            </div>
+                            <div class="flex justify-between items-center pb-2">
+                                <span class="text-sm font-bold text-slate-700">Best For</span>
+                                <span class="text-sm text-slate-500">Lumber, Steel, Piping</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Step Deck -->
+                <div class="glass-card p-8 flex flex-col gap-6 hover:bg-white/60 transition-all duration-300 group hover:-translate-y-2">
+                    <div class="h-64 overflow-hidden rounded-2xl shadow-md relative">
+                        <img src="images/stepdeck.jpg" alt="Step Deck Trailer" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 to-transparent"></div>
+                        <div class="absolute bottom-6 left-6">
+                            <h3 class="text-2xl font-bold text-white mb-1">Step Deck / Drop Deck</h3>
+                            <span class="text-orange-400 text-sm font-semibold uppercase tracking-wider">Tall Cargo</span>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-slate-600 leading-relaxed mb-6">
+                            Features a lower deck height to accommodate taller cargo (up to 10' high) without requiring over-height permits. Often equipped with ramps for driving equipment on/off.
+                        </p>
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center border-b border-slate-200 pb-2">
+                                <span class="text-sm font-bold text-slate-700">Max Cargo Height</span>
+                                <span class="text-sm text-slate-500">Up to 10' 2"</span>
+                            </div>
+                            <div class="flex justify-between items-center border-b border-slate-200 pb-2">
+                                <span class="text-sm font-bold text-slate-700">Lower Deck Length</span>
+                                <span class="text-sm text-slate-500">37' - 40'</span>
+                            </div>
+                            <div class="flex justify-between items-center pb-2">
+                                <span class="text-sm font-bold text-slate-700">Best For</span>
+                                <span class="text-sm text-slate-500">Tractors, Machinery, CNC</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RGN -->
+                <div class="glass-card p-8 flex flex-col gap-6 hover:bg-white/60 transition-all duration-300 group hover:-translate-y-2">
+                    <div class="h-64 overflow-hidden rounded-2xl shadow-md relative">
+                        <img src="images/RGN.png" alt="RGN Trailer" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-900/90 to-transparent"></div>
+                        <div class="absolute bottom-6 left-6">
+                            <h3 class="text-2xl font-bold text-white mb-1">Removable Gooseneck (RGN)</h3>
+                            <span class="text-orange-400 text-sm font-semibold uppercase tracking-wider">Heavy Haul</span>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="text-slate-600 leading-relaxed mb-6">
+                            The front of the trailer detaches, allowing the deck to touch the ground for driving heavy equipment directly onto the trailer. Essential for specialized heavy haul projects.
+                        </p>
+                        <div class="space-y-3">
+                            <div class="flex justify-between items-center border-b border-slate-200 pb-2">
+                                <span class="text-sm font-bold text-slate-700">Weight Capacity</span>
+                                <span class="text-sm text-slate-500">40k - 150k+ lbs (Multi-axle)</span>
+                            </div>
+                            <div class="flex justify-between items-center border-b border-slate-200 pb-2">
+                                <span class="text-sm font-bold text-slate-700">Well Length</span>
+                                <span class="text-sm text-slate-500">29' (Standard)</span>
+                            </div>
+                            <div class="flex justify-between items-center pb-2">
+                                <span class="text-sm font-bold text-slate-700">Best For</span>
+                                <span class="text-sm text-slate-500">Excavators, Cranes, Oversized</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <div id="dynamic-footer"></div>
+    <script src="script.js"></script>
+</body>
+</html>

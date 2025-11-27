@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logistics Services | Svojas Inc.</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="text-gray-800">
+    <div id="dynamic-header"></div>
+    <main>
+        <div class="container mx-auto px-6 py-40">
+            <div class="text-center max-w-4xl mx-auto mb-16">
+                <h1 class="text-4xl md:text-6xl font-extrabold mb-6 text-slate-800">Comprehensive Logistics</h1>
+                <p class="text-xl text-slate-600">Tailored shipping solutions for any challenge.</p>
+            </div>
+            
+            <!-- Grid Layout for Better Scanning -->
+            <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8">
+                
+                <!-- FTL & LTL -->
+                <div class="service-card-trigger glass-card p-8 cursor-pointer group hover:bg-white/60 transition-all duration-300" data-service="ftl">
+                    <div class="flex flex-col sm:flex-row items-start gap-6">
+                        <div class="w-20 h-20 bg-orange-50 rounded-2xl flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-500 shadow-sm">
+                            <svg class="w-10 h-10 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.125-.504 1.125-1.125V14.25m-17.25 4.5v-1.875a3.375 3.375 0 003.375-3.375h1.5a1.125 1.125 0 011.125 1.125v-1.5c0-.621-.504-1.125-1.125-1.125H3.375m17.25 4.5v-1.875a3.375 3.375 0 00-3.375-3.375h-1.5a1.125 1.125 0 01-1.125-1.125v-1.5c0-.621.504-1.125 1.125-1.125h1.5" /></svg>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold text-slate-800 mb-3 group-hover:text-orange-600 transition-colors">FTL & LTL Pickup & Delivery</h3>
+                            <p class="text-slate-600 mb-4 leading-relaxed">Complete pickup and delivery solutions. From full truckloads to single pallets, we handle the entire lifecycle.</p>
+                            <span class="text-orange-500 font-bold text-sm uppercase tracking-wider group-hover:underline">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hazmat -->
+                <div class="service-card-trigger glass-card p-8 cursor-pointer group hover:bg-white/60 transition-all duration-300" data-service="hazmat">
+                    <div class="flex flex-col sm:flex-row items-start gap-6">
+                        <div class="w-20 h-20 bg-orange-50 rounded-2xl flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-500 shadow-sm">
+                            <svg class="w-10 h-10 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" /></svg>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold text-slate-800 mb-3 group-hover:text-orange-600 transition-colors">Hazardous Materials</h3>
+                            <p class="text-slate-600 mb-4 leading-relaxed">Certified handling of sensitive and hazardous cargo, ensuring full safety and regulatory compliance.</p>
+                            <span class="text-orange-500 font-bold text-sm uppercase tracking-wider group-hover:underline">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Amazon Deliveries -->
+                <div class="service-card-trigger glass-card p-8 cursor-pointer group hover:bg-white/60 transition-all duration-300" data-service="amazon">
+                    <div class="flex flex-col sm:flex-row items-start gap-6">
+                        <div class="w-20 h-20 bg-orange-50 rounded-2xl flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-500 shadow-sm">
+                            <svg class="w-10 h-10 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" /></svg>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold text-slate-800 mb-3 group-hover:text-orange-600 transition-colors">Amazon Deliveries</h3>
+                            <p class="text-slate-600 mb-4 leading-relaxed">Expert FBA delivery services with precise appointment scheduling and strict adherence to Amazon standards.</p>
+                            <span class="text-orange-500 font-bold text-sm uppercase tracking-wider group-hover:underline">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cross Docking -->
+                <div class="service-card-trigger glass-card p-8 cursor-pointer group hover:bg-white/60 transition-all duration-300" data-service="crossdock">
+                    <div class="flex flex-col sm:flex-row items-start gap-6">
+                        <div class="w-20 h-20 bg-orange-50 rounded-2xl flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-500 shadow-sm">
+                            <svg class="w-10 h-10 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4" /></svg>
+                        </div>
+                        <div>
+                            <h3 class="text-2xl font-bold text-slate-800 mb-3 group-hover:text-orange-600 transition-colors">Cross Docking</h3>
+                            <p class="text-slate-600 mb-4 leading-relaxed">Rapid unloading and reloading services to minimize storage costs and speed up distribution.</p>
+                            <span class="text-orange-500 font-bold text-sm uppercase tracking-wider group-hover:underline">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Drayage -->
+                <div class="service-card-trigger glass-card p-8 cursor-pointer group hover:bg-white/60 transition-all duration-300" data-service="drayage">
+                    <div class="flex flex-col sm:flex-row items-start gap-6">
+                        <div class="w-20 h-20 bg-orange-50 rounded-2xl flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-500 shadow-sm"><svg class="w-10 h-10 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M2.25 18.75a60.07 60.07 0 0115.797 2.101c.727.198 1.453-.342 1.453-1.096V18.75M3.75 4.5v.75A.75.75 0 013 6h-.75m0 0v-.375c0-.621.504-1.125 1.125-1.125H20.25M2.25 6v9m18-10.5v.75c0 .414-.336.75-.75.75h-.75m0-1.5h.375c.621 0 1.125.504 1.125 1.125v.375m-18 0h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v.75" /></svg></div>
+                        <div>
+                            <h3 class="text-2xl font-bold text-slate-800 mb-3 group-hover:text-orange-600 transition-colors">Drayage Services</h3>
+                            <p class="text-slate-600 mb-4 leading-relaxed">Expert container movement from major US ports and rail ramps to your destination.</p>
+                            <span class="text-orange-500 font-bold text-sm uppercase tracking-wider group-hover:underline">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Air -->
+                <div class="service-card-trigger glass-card p-8 cursor-pointer group hover:bg-white/60 transition-all duration-300" data-service="air">
+                    <div class="flex flex-col sm:flex-row items-start gap-6">
+                        <div class="w-20 h-20 bg-orange-50 rounded-2xl flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-500 shadow-sm"><svg class="w-10 h-10 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" /></svg></div>
+                        <div>
+                            <h3 class="text-2xl font-bold text-slate-800 mb-3 group-hover:text-orange-600 transition-colors">Airport Recovery</h3>
+                            <p class="text-slate-600 mb-4 leading-relaxed">Specialized ground transport for import recovery and export delivery.</p>
+                            <span class="text-orange-500 font-bold text-sm uppercase tracking-wider group-hover:underline">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- OOG (Centered) -->
+                <div class="service-card-trigger glass-card p-8 cursor-pointer group hover:bg-white/60 transition-all duration-300 lg:col-span-2 lg:mx-auto lg:w-1/2" data-service="oog">
+                    <div class="flex flex-col sm:flex-row items-start gap-6">
+                        <div class="w-20 h-20 bg-orange-50 rounded-2xl flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-500 shadow-sm"><svg class="w-10 h-10 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M20.25 7.5l-.625 10.632a2.25 2.25 0 01-2.247 2.118H6.622a2.25 2.25 0 01-2.247-2.118L3.75 7.5M10.5 11.25h3M12 15h.008" /></svg></div>
+                        <div>
+                            <h3 class="text-2xl font-bold text-slate-800 mb-3 group-hover:text-orange-600 transition-colors">Specialized & OOG</h3>
+                            <p class="text-slate-600 mb-4 leading-relaxed">Expert planning for complex, heavy-haul, and out-of-gauge projects.</p>
+                            <span class="text-orange-500 font-bold text-sm uppercase tracking-wider group-hover:underline">View Details</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <div id="dynamic-footer"></div>
+    <div id="dynamic-modal"></div>
+    <script src="script.js"></script>
+</body>
+</html>
